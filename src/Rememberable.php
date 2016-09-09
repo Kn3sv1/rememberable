@@ -32,7 +32,7 @@ trait Rememberable
         }
 
         if (isset($this->rememberCacheDriver)) {
-            $builder->cacheDriver($this->rememberCacheDriver);   
+            $builder->cacheDriver($this->rememberCacheDriver);
         }
 
         return $builder;
